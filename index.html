@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora</title>
+    <table>Ejercicio-Calculadora</table>
+    <script src="funciones.js"></script>
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <form action="">
+        <input type="int" id="numero1"> +
+        <input type="int" id="numero2">
+        <input type="button" value="Sumar" onclick="alert(sumar())" ;>
+    </form>
+    <script>
+        function sumar() {
+            var numero1 = document.getElementById("numero1").value;
+            var numero2 = document.getElementById("numero2").value;
+            return parseInt(numero1) + parseInt(numero2);
+        }
+    </script>
+</body>
+
+</html>
